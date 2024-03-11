@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-StyleSheet.create({
+const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontWeight: "bold",
