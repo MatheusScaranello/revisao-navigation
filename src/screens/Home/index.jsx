@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Title title="Home" />
-      <Text>Welcome to the Home screen!</Text>
+      <Text style={styles.welcome}>Welcome to the Home screen!</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigator.navigate("Profile")}
